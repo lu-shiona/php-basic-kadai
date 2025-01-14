@@ -6,7 +6,7 @@
   </head>
 
   <body>
-    <a>
+    <p>
       <?php
       $vegetables = ['名前' => '玉ねぎ', '値段' => 200, '産地' => '北海道'];
 
@@ -14,6 +14,6 @@
         echo "{$key} : {$value}<br>";
       }     
       ?>
-    </a>
+    </p>
   </body>
 </html>
