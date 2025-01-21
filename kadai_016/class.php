@@ -26,10 +26,11 @@
                 }
             }
                 // インスタンス化する
-                $food = new Food('orange', 300);
+                $orange = new Food('orange', 300);
 
-                // インんスタンス$foodの各プロパティの値を出力する
-                print_r($food);
+                // インんスタンス$orangeの各プロパティの値を出力する
+                print_r($orange);
+                echo '<br>';
             
 
             // クラスを定義する
@@ -52,15 +53,16 @@
                 }
             }
                 // インスタンス化する
-                $animal = new Animal('cat', 60, 5000);
+                $cat = new Animal('cat', 60, 5000);
 
-                // インスタンス$animalの各プロパティの値を出力する
-                print_r($animal);
+                // インスタンス$catの各プロパティの値を出力する
+                print_r($cat);
+                echo '<br>';
             
                 // メソッドにアクセスして実行する
-                $food->show_price(300);
+                echo $orange->show_price();
 
-                $animal->show_height(60);
+                echo $cat->show_height();
             ?>
         </p>
     </body>
